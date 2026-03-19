@@ -23,7 +23,6 @@ def hash_string(input_string: str, algorithm: str = 'sha256') -> str:
 # 示例用法
 if __name__ == "__main__":
     text = "桜小路ルナ"
-    
     print("MD5:", hash_string(text, "md5"))
     print("SHA-1:", hash_string(text, "sha1"))
     print("SHA-256:", hash_string(text, "sha256"))
